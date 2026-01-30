@@ -13,29 +13,45 @@
         </header>
         <section>
             <form action="#" method="get">
-            <fieldset>
-                <legend>Dados Pessoais</legend>
-                <label for="username">Nome</label>
-                <input type="text" name="username" required>
-    <br>
-                <label for="">Idade</label>
-                <input type="number" name="age" min="12" max="100" required>
-    <br>
-                <label for="birthDate">Data de Nascimento</label>
-                <input type="date" name="birthDate">
-    <br>
-                <label for="userEmail">Email</label>
-                <input type="email" name="userEmail" required>
-    <br>
-                <label for="userphoneNumber">Telefone</label>
-                <input type="tel" name="userphoneNumber" pattern="[0-9]{11}" placeholder="DDD + xxxxxxxxx">
-    <br>
-                <label for="userImage">Upload de Foto</label>
-                <input type="file" accept="image/*" name="userImage">
-    <br>
-                <button type="submit">Enviar</button>
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <label for="username">Nome</label>
+                    <input type="text" name="username" required>
+        <br>
+                    <label for="">Idade</label>
+                    <input type="number" name="age" min="12" max="100" required>
+        <br>
+                    <label for="birthDate">Data de Nascimento</label>
+                    <input type="date" name="birthDate">
+        <br>
+                    <label for="userEmail">Email</label>
+                    <input type="email" name="userEmail" required>
+        <br>
+                    <label for="userphoneNumber">Telefone</label>
+                    <input type="tel" name="userphoneNumber" pattern="[0-9]{11}" placeholder="DDD + xxxxxxxxx">
+        <br>
+                    <label for="userImage">Upload de Foto</label>
+                    <input type="file" accept="image/*" name="userImage">
+        <br>
+                    
 
-            </fieldset>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Perfil</legend>
+
+                    <p>Gênero:</p>
+                    <input type="radio" name="userGender" value="Feminino">
+                    <label for="userGender">Feminino</label>
+
+                    <input type="radio" name="userGender" value="Masculino">
+                    <label for="userGender">Masculino</label>
+
+                    <input type="radio" name="userGender" value="notInformed">
+                    <label for="userGender">Prefiro não informar</label>
+                </fieldset>
+
+                <button type="submit">Enviar</button>
             </form>
         </section>
     </body>
