@@ -20,6 +20,11 @@
     padding: 0;
 }
 
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 body {
     background-color: #c3c8e1;
     font-family: "Work_sans", sans-serif;
@@ -39,11 +44,6 @@ main {
     margin: 0 auto;
 }
 
-header {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
 form {
     background-color: #b8bbdc ;
     padding: 15px;
@@ -52,7 +52,7 @@ form {
 
 fieldset {
     padding: 20px;
-    border: 2px solid #c3c8e1;
+    border: 1px solid #c3c8e1;
     border-radius: 5px;
     margin-bottom: 15px;
 }
@@ -61,4 +61,37 @@ legend {
     font-weight: bold;
     font-size: 18px;
     padding: 0 5px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #b8bbdc;
+    border-radius: 5px;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+     width: auto;
+     margin-top: 2px;
+}
+
+input[type="color"] {
+    width: 60px;
+    padding: 0 5px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 8px;
 }
