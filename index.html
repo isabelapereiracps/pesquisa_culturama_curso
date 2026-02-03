@@ -12,6 +12,7 @@
 
         </header>
         <section>
+
             <form action="#" method="get">
                 <fieldset>
                     <legend>Dados Pessoais</legend>
@@ -112,6 +113,21 @@
                 <br>
                     <input id="socialx" type="checkbox" name="socials" value="x">
                     <label for="socialx">X</label>
+                <br>
+
+                    <label for="musicStyle">Estilo Musical</label>
+                    <input list="styleTypes" id="musicStyle" name="userMusicStyle" type="text">
+                    <datalist id="styleTypes">
+                        <option value="Rock">
+                        <option value="Pop">
+                        <option value="Samba">
+                        <option value="Jazz">
+                        <option value="Sertanejo">
+                    </datalist>
+                <br>
+                    <label for="favoriteColor">Cor favorita</label>
+                    <input id="favoriteColor" type="color" name="userfavoriteColor">
+
 
                 </fieldset>
 
