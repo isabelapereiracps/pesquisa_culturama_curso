@@ -13,3 +13,52 @@
     font-style: normal;
     font-display: swap;
 }
+
+* {
+    margin: 0;
+    box-sizing: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #c3c8e1;
+    font-family: "Work_sans", sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+h1 {
+    font-family: "Fjalla_One",sans-serif;
+}
+
+main {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #b8bbdc ;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+fieldset {
+    padding: 20px;
+    border: 2px solid #c3c8e1;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0 5px;
+}
