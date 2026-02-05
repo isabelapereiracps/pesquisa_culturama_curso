@@ -30,12 +30,12 @@ body {
     font-family: "Work_sans", sans-serif;
 }
 
-img {
-    width: 100px;
-}
-
 h1 {
     font-family: "Fjalla_One",sans-serif;
+}
+
+img {
+    width: 100px;
 }
 
 main {
@@ -48,11 +48,12 @@ form {
     background-color: #b8bbdc ;
     padding: 15px;
     border-radius: 10px;
+    margin-bottom: 100px;
 }
 
 fieldset {
     padding: 20px;
-    border: 1px solid #c3c8e1;
+    border: 4px solid #c3c8e1;
     border-radius: 5px;
     margin-bottom: 15px;
 }
@@ -71,9 +72,10 @@ label {
 input, select, textarea {
     width: 100%;
     padding: 10px;
+    box-sizing: border-box;
     margin-bottom: 20px;
     border: 1px solid #b8bbdc;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 textarea {
@@ -84,6 +86,7 @@ input[type="radio"],
 input[type="checkbox"]{
      width: auto;
      margin-top: 2px;
+     margin-right: 3px;
 }
 
 input[type="color"] {
@@ -91,7 +94,32 @@ input[type="color"] {
     padding: 0 5px;
 }
 
+input:invalid,
+select:invalid,
+textarea:invalid {
+    border-color: red;
+}
+
+input:valid,
+select:valid,
+textarea:valid{
+    border-color: green;
+}
+
 p {
     font-size: 18px;
-    margin-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: #c3c8e1;
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: green;
+    color: aliceblue;
 }
