@@ -72,9 +72,10 @@ label {
 input, select, textarea {
     width: 100%;
     padding: 10px;
+    box-sizing: border-box;
     margin-bottom: 20px;
     border: 1px solid #b8bbdc;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 textarea {
@@ -85,6 +86,7 @@ input[type="radio"],
 input[type="checkbox"]{
      width: auto;
      margin-top: 2px;
+     margin-right: 3px;
 }
 
 input[type="color"] {
@@ -114,8 +116,7 @@ button {
     height: 30px;
     margin-right: 10px;
     background-color: #c3c8e1;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
 
 button:hover {
