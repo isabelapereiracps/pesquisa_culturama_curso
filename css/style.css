@@ -94,16 +94,25 @@ input[type="color"] {
     padding: 0 5px;
 }
 
+input[type="tel"], [type="file"] {
+    margin-bottom: 0;
+}
+
+small {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
 input:invalid,
 select:invalid,
 textarea:invalid {
-    border-color: red;
+    border-color: #e40000;
 }
 
 input:valid,
 select:valid,
 textarea:valid{
-    border-color: green;
+    border-color: #2ead00;
 }
 
 p {
@@ -116,10 +125,11 @@ button {
     height: 30px;
     margin-right: 10px;
     background-color: #c3c8e1;
-    cursor: pointer; 
+    cursor: pointer;
+    border-radius: 15px;
 }
 
 button:hover {
-    background-color: green;
+    background-color: #8878b6;
     color: aliceblue;
 }
